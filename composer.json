@@ -4,6 +4,8 @@
     "type": "library",
     "minimum-stability": "dev",
     "license": "MIT",
+    "keywords": ["laravel","lumen","facade","microservice","request","api"],
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Azhar Ogi",
@@ -15,5 +17,7 @@
             "Zharletc\\Microapirequest\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": ">=5.5.0"
+    }
 }
