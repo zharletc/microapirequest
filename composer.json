@@ -2,9 +2,10 @@
     "name": "zharletc/microapirequest",
     "description": "zharletc - Microapi-Request",
     "type": "library",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "license": "MIT",
     "keywords": ["laravel","lumen","facade","microservice","request","api"],
+    "version": "2.10.0",
     "prefer-stable": true,
     "authors": [
         {
@@ -18,6 +19,7 @@
         }
     },
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": ">=6.0"
     }
 }
